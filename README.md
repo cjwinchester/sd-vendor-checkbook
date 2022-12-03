@@ -1,4 +1,4 @@
-# South Dakota state vendor checkbook data
+# South Dakota vendor checkbook data
 Some Python to poke at the state of South Dakota's [checkbook-level vendor payment data](https://open.sd.gov/vendor.aspx).
 
 `fetch_latest_data.py` grabs the three files offered on the state website and combines them into one local file, `sd-vendor-checkbook.csv`. (Thereafter, the data fetched from the website is also combined with data cached in the local file, which is tracked with [`git-lfs`](https://git-lfs.github.com/).)
